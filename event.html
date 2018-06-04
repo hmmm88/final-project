@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="style4.css">
+	<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+	<div class="wrapper">
+		<header>
+			<nav>
+				<div class="menu-icon">
+					<i class="fa fa-bars fa-2x"></i>
+				</div>
+				<div class="logo">
+					<img src="img/logo2.png">
+				</div>
+				<div class="menu">
+					<ul>
+						<li><a href="index.html">Home</a><font color="yellow"></font></li>
+						<li><a href="hal2.html">Berita</a></li>
+						<li><a href="potensi.html">Potensi</a></li>
+						<li><a href="event.html">Event</a></li>
+						<li><a href="#">Contact</a></li>
+					</ul>
+
+				</div>
+
+			</nav>
+
+		</header>
+	</div>
+
+
+
+
+
+
+<script type="text/javascript">
+		
+
+
+
+		$(document).ready(function() {
+			$(".menu-icon").on("click", function() {
+				$("nav ul").toggleClass("showing");
+			});
+		});
+
+
+
+		$(window).on("scroll", function() {
+			if($(window).scrollTop()) {
+				$('nav').addClass('black');
+			}
+			else {
+				$('nav').removeClass('black');
+			}
+		})
+
+
+
+
+	</script>
+
+
+
+
+
+
+
+
+</body>
+</html>

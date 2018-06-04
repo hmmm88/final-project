@@ -1,0 +1,247 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+body {
+	font-family: Quicksand;
+}
+
+header {
+	width: 100%;
+	height: 100vh;
+	background: url(img/banner.png) no-repeat 50% 50%;
+	background-size: cover;
+}
+
+.content {
+	width: 90%;
+	margin: 4em auto;
+	font-size: 20px;
+	line-height: 30px;
+	text-align: justify;
+
+}
+
+.logo {
+	position: fixed;
+	float: left;
+	margin: 16px 36px;
+	color: #fff;
+	font-weight: bold;
+	font-size: 24px;
+}
+nav {
+	position: fixed;
+	width: 100%;
+}
+nav ul {
+	list-style: none;
+	background:rgba(0,0,0,0);
+	overflow: hidden;
+	color: #fff;
+	padding: 0;
+	text-align: center;
+	margin: 0;
+	transition: 1s;
+}
+
+nav.black ul {
+	background: #ffdd5c;
+}
+
+nav ul li {
+	display: inline-block;
+	padding: 20px;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 20px;
+}
+
+.menu-icon {
+	width: 100%;
+	background: #ffdd5c;
+	text-align: right;
+	box-sizing: border-box;
+	padding: 15px 24px;
+	cursor: pointer;
+	color: #fff;
+	display: none;
+}
+
+@media(max-width: 580px) {
+	.logo {
+		position: fixed;
+		top: 0;
+		margin-top: 16px;
+	}
+
+	nav ul {
+		max-height: 0px;
+		background: #ffdd5c;
+	}
+
+	nav.black ul {
+		background: #ffdd5c;
+	}
+
+	.showing {
+		max-height: 20em;
+	}
+
+	nav ul li {
+		box-sizing: border-box;
+		width: 100%;
+		padding: 24px 0;
+		text-align: center;
+	}
+
+	.menu-icon {
+		display: block;
+	}
+}
+
+.background {
+	padding: 5px;
+	width: 100%;
+	height: 550px;
+	background-color: #227066;
+	margin-top: 5px;
+}
+
+.isi5 img {
+	width: 380px;
+	height: 308px;
+	border: 10px solid #fff;
+	margin-top: 5px;
+
+}
+
+.isi5 .content5 {
+	width: 425px;
+	float: right;
+	position: relative;
+	padding: 15px 15px 15px 2px;
+	margin: 80px;
+	margin-right: 8px;
+
+	
+}
+
+.isi5 .content5 .brita5 {
+	position: absolute;
+	color: #ffffff;
+	font-size: 18px;
+	width: 100px;
+	top: 30px;
+	right: 50px;
+}
+
+.isikiri img {
+	width: 185px;
+	height: 151px;
+	border: 5px solid #fff;
+
+}
+.isikiri .contentkiri {
+	width: 200px;
+	float: left;
+	position: relative;
+	padding: 15px 15px 15px 2px;
+	margin: 20px;
+	margin-left: 100px;
+}
+
+.isikiri .contentkiri .britakiri {
+	position: absolute;
+	color: #ffffff;
+	font-size: 10px;
+	width: 100px;
+	bottom: 20px;
+	right: 50px;
+}
+
+.isikanan img {
+	width: 185px;
+	height: 151px;
+	border: 5px solid #fff;
+
+}
+.isikanan .contentkanan {
+	width: 200px;
+	float: right;
+	position: relative;
+	padding: 15px 15px 15px 2px;
+	margin: 20px;
+	margin-right: 100px;
+}
+
+.isikanan .contentkanan .britakanan {
+	position: absolute;
+	color: #ffffff;
+	font-size: 10px;
+	width: 100px;
+	bottom: 20px;
+	right: 50px;
+}
+
+/*.isi3 img {
+	width: 185px;
+	height: 151px;
+	border: 5px solid #fff;
+
+}
+.isi3 .content3 {
+	width: 200px;
+	float: left;
+	position: relative;
+	padding: 15px 15px 15px 2px;
+	margin: 20px;
+	margin-left: 100px;
+}
+
+.isi3 .content3 .brita3 {
+	position: absolute;
+	color: #ffffff;
+	font-size: 10px;
+	width: 100px;
+	bottom: 20px;
+	right: 50px;
+}
+
+.isi4 img {
+	width: 185px;
+	height: 151px;
+	border: 5px solid #fff;
+
+}
+.isi4 .content4 {
+	width: 200px;
+	float: right;
+	position: relative;
+	padding: 15px 15px 15px 2px;
+	margin: 20px;
+	margin-right: 100px;
+}
+
+.isi4 .content4 .brita4 {
+	position: absolute;
+	color: #ffffff;
+	font-size: 10px;
+	width: 100px;
+	bottom: 20px;
+	right: 50px;
+}*/
+
+
+
+
+
+
+
+
+
